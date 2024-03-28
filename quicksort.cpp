@@ -16,16 +16,16 @@ void input()
         if (n <= 20)
         break;
         else
-        cout << "Panjang Array tidak boleh lebih dari 20" << endl;
+        cout << "\nPanjang Array tidak boleh lebih dari 20" << endl;
     }
 
      cout << "------------------" << endl;
-     cout <<  "Masukkan elemen array : " << endl;
-     cout << "------------------" << endl;
+     cout <<  "\nMasukkan elemen array : " << endl;
+     cout << "\n------------------" << endl;
 
     for(int i = 0; i < n; i++)
     {
-        cout << "<" << (i + 1) << ">"
+        cout << "<" << (i + 1) << ">";
     }
 }
 
@@ -93,7 +93,7 @@ void display()
         cout << arr[i] << " ";
     }
 
-    cout << "Number of Comparisons: " << cmp_count << endl;
+    cout << "\n\nNumber of Comparisons: " << cmp_count << endl;
     cout << "Number of Data Movements" << mov_count << endl;
 }
 int main()
@@ -102,7 +102,7 @@ int main()
 
     do
     {
-        input;
+        input();
         q_sort(0,n-1);
         display();
         cout << "\nDo you want to continue? Y/N :";
