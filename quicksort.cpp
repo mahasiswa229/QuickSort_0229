@@ -15,7 +15,8 @@ void q_sort(int low,int high)
     {
         return ;
     }
-    
+
+    pivot = arr[low];
 }
 
 
