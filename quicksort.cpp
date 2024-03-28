@@ -6,6 +6,29 @@ int cmp_count = 0;
 int mov_count = 0;
 int n;
 
+void input()
+{
+    while (true)
+    {
+        cout << "Masukan panjang elemen Array :  "; 
+        cin >> n;
+
+        if (n <= 20)
+        break;
+        else
+        cout << "Panjang Array tidak boleh lebih dari 20" << endl;
+    }
+
+     cout << "------------------" << endl;
+     cout <<  "Masukkan elemen array : " << endl;
+     cout << "------------------" << endl;
+
+    for(int i = 0; i < n; i++)
+    {
+        cout << "<" << (i + 1) << ">"
+    }
+}
+
 void q_sort(int low,int high)
 {
     int temp;
