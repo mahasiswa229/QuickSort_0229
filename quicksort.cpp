@@ -22,7 +22,11 @@ void q_sort(int low,int high)
 
     while (i  <= j)
     {
-        /* code */
+        while ((arr[i] <= pivot) && (i <= high))
+        {
+            /* code */
+        }
+        
     }
     
 }
