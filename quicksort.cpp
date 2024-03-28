@@ -45,6 +45,8 @@ void q_sort(int low,int high)
     {
         swap (low,j);
     }
+
+    q_sort(low, j - 1);
     
     
 }
