@@ -24,7 +24,8 @@ void q_sort(int low,int high)
     {
         while ((arr[i] <= pivot) && (i <= high))
         {
-            /* code */
+            i++;
+            cmp_count;
         }
         
     }
