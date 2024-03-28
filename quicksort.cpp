@@ -98,7 +98,22 @@ void display()
 }
 int main()
 {
-    
+    char ch;
+
+    do
+    {
+        input;
+        q_sort(0,n-1);
+        display();
+        cout << "\nDo you want to continue? Y/N :";
+        cin >> ch;
+        if (ch  == 'N' || ch =='n')
+        break;
+        
+        system("pause");
+        system("cls");
+        
+    } while (true);
     
 
 }
